@@ -1,0 +1,130 @@
+{
+  "style": "flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art",
+  "palette": [
+    "#17131E",
+    "#1F1829",
+    "#2A2135",
+    "#3A2F47",
+    "#813EB6",
+    "#DE3B63",
+    "#F0C04C",
+    "#32BBAA",
+    "#C7B7D4",
+    "#F5EADC"
+  ],
+  "notes": "One art style for the whole project, repeated word for word inside every prompt. Orientation is declared in words for every mechanical sprite: the shield segment puts its outer convex edge at the TOP (the code rotates it so local up points away from the crystal), the crimson shard points RIGHT because local right is its flight direction, the lane rail runs VERTICALLY top to bottom and the bunting runs HORIZONTALLY because both are drawn nine-sliced along that axis, and the two turn arrows and the back chevron are the only other asymmetric pieces. Everything else is symmetric and is never flipped. Sprite backgrounds are matted out by the pipeline, so no prompt argues about background colour. There is no audio in this project. Nothing carries a name, a word, a letter or a logo.",
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "vertical 9:16 mobile game menu background, night carnival stage under heavy velvet curtains, deep ink-violet depths, crossed spotlight beams in magenta and gold, striped tent silhouettes along both edges, the middle band kept calm and uncluttered as a safe area for menu panels, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, no letters, no logos, no UI, not a photo, not photorealistic"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "vertical 9:16 mobile game background, the same carnival stage dimmed right down, deep purple haze, four faint diagonal guide lines converging on the middle, soft magenta rim light along the edges, strong vignette and very low contrast in the centre so gameplay reads on top, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, no letters, no logos, no UI, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_crystal_core",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_crystal_core.png",
+      "prompt": "one single faceted energy crystal standing with its point UP, symmetric diamond silhouette, teal body with a warm golden inner glow, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_ring_base",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_ring_base.png",
+      "prompt": "one single thin circular ring track seen flat from the front, perfectly symmetric, polished purple metal with small gold studs spaced evenly around it, hollow centre, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_shield_arc",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_shield_arc.png",
+      "prompt": "one single curved shield segment, a thick arc of armour plating with its outer convex edge at the TOP and its hollow concave side at the bottom, gold plating with a violet energy rim, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_pulse_danger",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pulse_danger.png",
+      "prompt": "one single sharp crimson energy shard with its spike pointing RIGHT, trailing sparks behind it to the left, jagged dangerous silhouette, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_pulse_boon",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pulse_boon.png",
+      "prompt": "one single round teal energy orb with a soft spark halo around it, perfectly symmetric, friendly glowing silhouette, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_lane_rail",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_lane_rail.png",
+      "prompt": "one single straight glowing rail bar running VERTICALLY, entering at the top edge of the frame and leaving at the bottom edge, purple metal with evenly spaced gold studs, same width all the way down, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_energy_pip",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_energy_pip.png",
+      "prompt": "one single small round energy pip, a glowing gold bead inside a thin dark bezel, perfectly symmetric, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_burst_block",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_burst_block.png",
+      "prompt": "one single radial impact burst, a symmetric starburst of short tapering rays around a bright hot core, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_btn_turn_l",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_btn_turn_l.png",
+      "prompt": "one single curved arrow pointing LEFT, a rotation arrow sweeping counter-clockwise, thick gold stroke with a dark outline, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_btn_turn_r",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_btn_turn_r.png",
+      "prompt": "one single curved arrow pointing RIGHT, a rotation arrow sweeping clockwise, thick gold stroke with a dark outline, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "prompt": "one single close cross icon, two thick strokes crossing at the centre, perfectly symmetric, cream stroke with a dark outline, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "prompt": "one single pause icon, two thick upright rounded bars side by side, perfectly symmetric, cream fill with a dark outline, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "prompt": "one single chevron pointing LEFT, a thick angular back arrowhead, cream stroke with a dark outline, centred, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    },
+    {
+      "name": "sprite_bunting_strip",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_bunting_strip.png",
+      "prompt": "one single HORIZONTAL carnival bunting garland, a gently sagging cord running from the left edge of the frame to the right edge with small triangular flags hanging from it, alternating magenta and gold flags, same height all the way across, flat vector cartoon, thick dark outlines, bold neon stage lighting, chunky casual mobile game art, no text, not a photo, not photorealistic"
+    }
+  ]
+}

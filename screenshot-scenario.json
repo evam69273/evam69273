@@ -1,0 +1,13 @@
+{
+  "notes": "Every tapFrac is computed from the real RectTransform of the button over the 1242x2688 reference canvas, not guessed. The UI sits under an AspectRatioFitter (FitInParent, aspect 0.46205357), so on a 1080x2400 device the width fills and the height is letterboxed by 31 px top and bottom: a UI point at fraction u of the panel (measured from the bottom) lands at 0.013042 + u*0.973917 of the screen from the bottom, and tapFrac y is one minus that. The menu splash runs up to ten seconds on a cold start, which is why the first step waits eleven. The three gameplay captures land roughly 9, 16 and 23 seconds into the round, well inside the mode's safety window, so the crystal is alive in every one of them.",
+  "steps": [
+    { "wait": 11, "shot": "01_Menu" },
+    { "tapFrac": [0.285, 0.787], "label": "SPEED MODES", "wait": 2.5, "shot": "02_SpeedModes" },
+    { "tapFrac": [0.500, 0.487], "label": "MODE RAPID", "wait": 2.5, "shot": "03_ModePicked" },
+    { "tapFrac": [0.500, 0.686], "label": "CLOSE", "wait": 2, "shot": "04_MenuReady" },
+    { "tapFrac": [0.500, 0.695], "label": "PLAY", "waitLoader": true, "wait": 9, "shot": "05_GameBoard" },
+    { "tapFrac": [0.725, 0.875], "label": "TURN R", "wait": 7, "shot": "06_GameBlock" },
+    { "tapFrac": [0.275, 0.875], "label": "TURN L", "wait": 7, "shot": "07_GameCharge" },
+    { "tapFrac": [0.915, 0.050], "label": "PAUSE", "wait": 3, "shot": "08_PausePop" }
+  ]
+}
